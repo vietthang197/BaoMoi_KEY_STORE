@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tagroup.thangducanh.baomoi_TA97.HomeActivity"
+    android:orientation="vertical"
+    android:background="#459ef8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:text="Đọc báo tin tức cập nhật 24h"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:text="-- Chuyên mục --"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Trang chủ"
+                android:textAllCaps="false"
+                android:id="@+id/btnTrangChu"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Thời sự"
+                android:textAllCaps="false"
+                android:id="@+id/btnThoiSu"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Thế giới"
+                android:textAllCaps="false"
+                android:id="@+id/btnTheGioi"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Kinh doanh"
+                android:textAllCaps="false"
+                android:id="@+id/btnKinhDoanh"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Ủng hộ"
+                android:textAllCaps="false"
+                android:id="@+id/btnQuangCao"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Giải trí"
+                android:textAllCaps="false"
+                android:id="@+id/btnGiaiTri"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Thể thao"
+                android:textAllCaps="false"
+                android:id="@+id/btnTheThao"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Pháp luật"
+                android:textAllCaps="false"
+                android:id="@+id/btnPhapLuat"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Giáo dục"
+                android:textAllCaps="false"
+                android:id="@+id/btnGiaoDuc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Sức khỏe"
+                android:textAllCaps="false"
+                android:id="@+id/btnSucKhoe"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Gia đình"
+                android:textAllCaps="false"
+                android:id="@+id/btnGiaDinh"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Du lịch"
+                android:textAllCaps="false"
+                android:id="@+id/btnDuLich"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Khoa học"
+                android:textAllCaps="false"
+                android:id="@+id/btnKhoaHoc"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Số hóa"
+                android:textAllCaps="false"
+                android:id="@+id/btnSoHoa"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Xe"
+                android:textAllCaps="false"
+                android:id="@+id/btnXe"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Cộng đồng"
+                android:textAllCaps="false"
+                android:id="@+id/btnCongDong"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Tâm sự"
+                android:textAllCaps="false"
+                android:id="@+id/btnTamSu"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#076cd1"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Cười"
+                android:textAllCaps="false"
+                android:id="@+id/btnCuoi"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_height="60dp"
+        android:layout_width="match_parent">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
+</LinearLayout>

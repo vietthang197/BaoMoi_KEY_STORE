@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:text="Để ủng hộ chúng tôi, bạn hãy click XEM VIDEO, nhờ vào kinh phí quảng cáo chúng tôi có thể duy trì và phát triển app hay hơn nữa, cảm ơn các bạn !"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_title"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/watch_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="XEM VIDEO"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/watch_video"
+        android:layout_centerHorizontal="true"
+        android:text="Xem lại quảng cáo"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/retry_button"
+        android:layout_centerHorizontal="true"
+        android:text="Không xem nữa, quay lại"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/coin_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Số lần xem: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

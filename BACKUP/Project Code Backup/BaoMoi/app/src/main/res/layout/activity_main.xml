@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tagroup.thangducanh.baomoi_TA97.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#459ef8"
+        android:textSize="20sp"
+        android:text="-- Bản tin thế giới --"
+        android:textAlignment="center"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:id="@+id/tvTieude"/>
+    <RelativeLayout
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_height="60dp"
+        android:layout_width="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id_2">
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+    <View android:background="#dcdee3"
+        android:layout_width = "match_parent"
+        android:layout_height="3dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:id="@+id/listView">
+
+    </ListView>
+
+
+</LinearLayout>
