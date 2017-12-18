@@ -25,7 +25,7 @@ public class Main2Activity extends AppCompatActivity {
         webView.loadUrl(link);
         webView.setWebViewClient(new WebViewClient());
 
-        MobileAds.initialize(getApplicationContext(),"ca-app-pub-9334661269367396~3275072909");
+        MobileAds.initialize(getApplicationContext(),"ca-app-pub-6698655251090750~7707011583");
         mAdView3 = findViewById(R.id.adView3);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView3.loadAd(adRequest);

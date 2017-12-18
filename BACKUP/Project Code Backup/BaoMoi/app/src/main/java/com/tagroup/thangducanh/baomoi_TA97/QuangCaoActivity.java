@@ -20,9 +20,9 @@ import com.google.android.gms.ads.reward.RewardedVideoAdListener;
  * Main Activity. Inflates main activity xml and implements RewardedVideoAdListener.
  */
 public class QuangCaoActivity extends Activity implements RewardedVideoAdListener {
-    private   String quangcaoid = "ca-app-pub-9334661269367396/8043118195";
+    private   String quangcaoid = "ca-app-pub-6698655251090750/5031325902";
 
-    private   String ungdungid = "ca-app-pub-9334661269367396~3275072909";
+    private   String ungdungid = "ca-app-pub-6698655251090750~7707011583";
 
     private   long thoigianchay = 14;
     private   int kethucgame = 1;
